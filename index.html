@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        aside {
+            width: 150px;
+            height: 935px;
+            background-color: #191718;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        aside a {
+            padding-top: 14px;
+            padding-left: 16px;
+            display: block;
+            color: #AAAAAA;
+            text-decoration: none;
+            width: 150px;
+            height: 44px;
+            border-bottom: solid 1px #5C5C5C;
+            box-sizing: border-box;
+        }
+
+        aside a.sidebar-home {
+            color: #f9f9f9;
+        }
+
+        aside a:hover {
+            background-color: #bbb;
+            color: #fff;
+        }
+
+        .content {
+            width: 1768px;
+            height: 935px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 129px;
+        }
+
+        .logo {
+            margin-top: 20px;
+            width: 310px;
+            height: 122px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .box {
+            display: inline;
+            flex-basis: calc(33.333% - 10px);
+            height: 300px;
+            margin: 5px;
+            box-sizing: border-box;
+            padding: 15px;
+            text-align: left;
+        }
+
+        h2,
+        p {
+            color: #000000;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 28.13px;
+            letter-spacing: 0em;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 18.75px;
+            letter-spacing: 0em;
+        }
+
+        footer {
+            width: 1768px;
+            color: #3e3e3e;
+            margin-top: auto;
+            border-top: solid 1px #dedede;
+        }
+
+        img {
+            width: 128px;
+            height: 128px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside id="sidebar">
+        <a href="#" class="sidebar-home">Home</a>
+        <a href="#">Services</a>
+        <a href="#">News</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </aside>
+
+    <div class="content">
+        <img src="/img/logo.png" alt="Logo" class="logo">
+
+        <div id="group1">
+            <h2>Lorem ipsum dolor sit asmet?</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat. Vestibulum
+                auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam facilisis,
+                ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi. Morbi vitae diam
+                augue. Aliquam vel mauris a nibhauctor commodo. Praesent et nisi eu justo eleifend convallis. Quisque
+                suscipit maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue tristique eu. Donec
+                vulputate odio neque, sed semper turpis pellentesque a.
+            </p>
+        </div>
+        <div class="container">
+            <div class="box">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <p>
+                    <img src="/img/css.png" alt="css" class="img">
+                    Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean
+                    consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                    ultrices
+                    liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper
+                    id.
+                    Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                    ultrices vestibulum mattis.
+                </p>
+            </div>
+
+            <div class="box">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <p>
+                    <img src="/img/html.png" alt="css" class="img">
+                    Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean
+                    consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                    ultrices
+                    liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper
+                    id.
+                    Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                    ultrices vestibulum mattis.
+                </p>
+            </div>
+
+            <div class="box">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <p>
+                    <img src="/img/url.png" alt="css" class="img">
+                    Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean
+                    consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                    ultrices
+                    liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper
+                    id.
+                    Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                    ultrices vestibulum mattis.
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright 2021</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
